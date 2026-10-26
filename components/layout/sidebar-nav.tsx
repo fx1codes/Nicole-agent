@@ -10,6 +10,8 @@ const navItems = [
 ];
 
 export function SidebarNav() {
+  "use client";
+
   const pathname = usePathname();
 
   return (
